@@ -14,8 +14,8 @@ public class CircleArea {
     }
 
     public static void main(String[] args) {
-        CircleArea eng=new CircleArea(10);
-        System.out.println( eng.getArea());
+        CircleArea alan=new CircleArea(10);
+        System.out.println( alan.getArea());
 
     }
 }
