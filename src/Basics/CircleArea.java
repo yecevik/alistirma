@@ -3,7 +3,7 @@ package Basics;
 public class CircleArea {
 
 
-    private double radius;
+    private final double radius;
 
     public CircleArea(double radius) {
         this.radius = radius;
@@ -14,8 +14,8 @@ public class CircleArea {
     }
 
     public static void main(String[] args) {
-        CircleArea alan=new CircleArea(10);
-        System.out.println( alan.getArea());
+        CircleArea alan1=new CircleArea(10);
+        System.out.println( alan1.getArea());
 
     }
 }
